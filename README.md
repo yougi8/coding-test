@@ -5,6 +5,6 @@
 
 ### Part2  
 #### Chapter 3 - 그리디  
-* 거스름돈 문제  
+* [거스름돈 문제](https://github.com/yougi8/coding-test/blob/master/ch3/ch3_1.java)    
 
 
