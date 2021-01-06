@@ -29,7 +29,7 @@
     * 구현 : 머릿속에 있는 알고리즘을 소스코드로 바꾸는 과정  
     * 구현 문제 : 풀이를 떠올리는 것은 쉽지만 소스코드로 옮기기 어려운 문제  
 
-* 상하좌우 :  
+* 상하좌우 :  [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch4/ch4_1.java)  
 
       * 시뮬레이션 유형으로 분류됨  
       * 문자열 한 줄을 가져오기 위해서 버퍼 비우기 필수 !!  
@@ -37,13 +37,13 @@
            앞서 nextInt()로 값을 받고 엔터를 치는 순간 빈 공간을 입력받은 것이 되기 때문이다.  
         -> keyboard.nextLine();  
         
-* 시각 :  
+* 시각 :  [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch4/ch4_2.java)  
 
       * 모든 경우는 86,400가지이다.   
       * 계산이 금방 되기 때문에, 모든 경우를 하나씩 세서 풀 수 있다.  
       * 완전 탐색(Brute Forcing) 문제 유형이라고 한다.  
       
-* 왕실의 나이트 :  
+* 왕실의 나이트 :  [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch4/ch4_3.java)  
 
       * 2차원 배열이 등장하는 전형적인 구현 문제  
       
