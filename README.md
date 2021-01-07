@@ -61,13 +61,13 @@
         -> 움직였을 때 판을 벗어나지 않으면 count+1  
       
       
-* **게임 개발** :  
+* **게임 개발** :  [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch4/ch4_4.java)  
 
       * 전형적인 시뮬레이션 문제
       * 삼성전자 공채 코딩 테스트에서 자주 출제되는 대표적인 유형
       * dx,dy와 같이 별도의 방향 리스트를 만드는 것이 효과적이다.
 
-#### Chapter 5 - [DFS](https://github.com/ndb796/python-for-coding-test/blob/master/5/8.java) / [BFS](https://github.com/ndb796/python-for-coding-test/blob/master/5/9.java)  `그래프 탐색 알고리즘`  
+#### Chapter 5 - DFS / BFS `그래프 탐색 알고리즘`  
   ```  
   # 스택 자료구조  
    -> 선입후출 ( 입구와 출구가 동일한 형태 ex.프링글스 과자 통 )  
