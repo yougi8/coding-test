@@ -19,16 +19,16 @@
           
       * 방법 : '가장 큰 화폐 단위부터' 돈을 거슬러 주는 것   
       
-* 동빈이의 큰 수의 법칙 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch3/ch3_2.java)  
+* **동빈이의 큰 수의 법칙** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch3/ch3_2.java)  
 
       * 방법 : 반복되는 수열에 대해서 파악해야 한다.  
       
-* 숫자 카드게임 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch3/ch3_3.java)  
+* **숫자 카드게임** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch3/ch3_3.java)  
      
       * 방법 : 각 행마다 가장 작은 수를 찾은 뒤에 그 수 중에서 가장 큰 수를 찾기  
       
       
-* 1이 될 때까지 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch3/ch3_4.java)  
+* **1이 될 때까지** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch3/ch3_4.java)  
 
       * 방법 : 최대한 많이 나누기  
         -> 나누는 것이 1을 빼는 것보다 숫자를 훨씬 많이 줄일 수 있기 때문
@@ -54,14 +54,14 @@
       * 완전 탐색(Brute Forcing) 문제 유형이라고 한다.  
       * 방법 : 00시 00분 00초 부터 N시 59분 59초까지 모든 경우를 돌면서 3이 있는지 체크  
       
-* 왕실의 나이트 :  [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch4/ch4_3.java)  
+* **왕실의 나이트** :  [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch4/ch4_3.java)  
 
       * 2차원 배열이 등장하는 전형적인 구현 문제  
       * 방법 : 나이트가 움직일 수 있는 방향들은 2차원 배열에 저장해놓고, 주어진 위치에서 하나씩 움직여보는 것.  
         -> 움직였을 때 판을 벗어나지 않으면 count+1  
       
       
-* 게임 개발 :  
+* **게임 개발** :  
 
       * 전형적인 시뮬레이션 문제
       * 삼성전자 공채 코딩 테스트에서 자주 출제되는 대표적인 유형
@@ -73,12 +73,19 @@
     # 탐색 : 많은 양의 데이터 중에서 원하는 데이터를 찾는 과정   
     # 스택 자료구조  
      -> 선입후출 ( 입구와 출구가 동일한 형태 ex.프링글스 과자 통 )  
-     -> 스택 구현 예제  
-       ```java  
-          Stack<Integer> s = new Stack<>();  
-       ``` 
+     -> 자바에서  
+         - Stack<Integer> s = new Stack<>();  
+         - 삽입 : push  
+         - 삭제 : pop  
     # 큐 자료구조  
-     -> 선입선출 ( 입구와 출구가 모두 뚫려있는 형태 ex.터널, 대기표 )
+     -> 선입선출 ( 입구와 출구가 모두 뚫려있는 형태 ex.터널, 대기표 )  
+     -> 자바에서 
+         - Queue<Integer> s = new LinkedList<>();  
+         - 삽입 : offer  
+         - 추출(삭제)&출력 : poll  
+    # 재귀 함수(Recursive Function)  
+     -> 자기 자신을 호출하는 함수  
+     -> 재귀 함수의 종료 조건을 반드시 명시해야 한다.  
     
 
 
