@@ -109,3 +109,8 @@
         모두 큐에 삽입하고 방문 처리를 한다.  
      3. 더 이상 2번의 과정을 수행할 수 없을 때까지 반복한다.  
   ```  
+
+ * DFS 기본 구현 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch5/ch5_1.java)  
+ 
+ * BFS 기본 구현 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch5/ch5_2.java)  
+ 
