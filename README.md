@@ -13,7 +13,7 @@
 * 거스름돈 문제 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch3/ch3_1.java)   
 
       * 그리디 문제로 풀 수 있는 이유  
-        - 가장 큰 단위가 항상 작은 단위의 배수이므로, 작은 단위의 동전들을 종합해 다른 해가 나올 수 없기 때문이다.  
+        - 가장 큰 단위가 항상 작은 단위의 배수이기 때문.   
           - 예를 들어, 동전이 500원과 400원이라면 둘은 배수 관계가 아니기 때문에 그리디를 적용할 수 없다.  
           - 500원은, 100원, 50원, 10원의 배수 관계이기 때문에 그리디가 최선의 방법이 될 수 있다.  
           
@@ -113,4 +113,8 @@
  * DFS 기본 구현 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch5/ch5_1.java)  
  
  * BFS 기본 구현 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch5/ch5_2.java)  
+ 
+ * **음료수 얼려 먹기** :    
+ 
+ * **미로탈출** :  
  
