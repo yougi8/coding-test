@@ -181,10 +181,10 @@
    | 퀵 정렬| O(NlogN) | O(N) | 대부분의 경우에 가장 적합하며, 충분히 빠릅니다.|    
    | 계수 정렬| O(N + K) | O(N + K) | 데이터의 크기가 한정되어 있는 경우에만 사용이 가능하지만 매우 빠르게 동작합니다. |   
    
-   * **위에서 아래로** :   
+   * **위에서 아래로** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_5.java)  
    
-   * **성적이 낮은 순서대로 학생 출력하기** :  
+   * **성적이 낮은 순서대로 학생 출력하기** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_6.java)   
    
-   * **두 배열의 원소 교체** :  
+   * **두 배열의 원소 교체** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_7.java)    
      
           
