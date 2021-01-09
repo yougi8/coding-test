@@ -114,9 +114,14 @@
  
  * BFS 기본 구현 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch5/ch5_2.java)  
  
- * **음료수 얼려 먹기** :    
+ * **음료수 얼려 먹기** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch5/ch5_3.java)  
+       
+        * 칸막이가 있는 칸 1은 카운트하지 않는다.  
+        * 방문 가능한 0은 방문하고, 연결된 노드를 계속 탐색하며 더이상 0으로 연결될 수 없을 때까지 탐색하며 1로 바꾼다.  
+        * 더 이상 연결할 수 없다면, count를 1 증가시킨다.  
+          -> 1로 둘러싸인 0을 이어줄 수 있고, 칸막이와 이미 센 얼음칸은 제외할 수 있다.  
  
- * **미로탈출** :  
+ * **미로탈출** :  아 이거는.... 어렵네........ 
  
  ### chapter 6. 정렬  
   정렬 : 데이터를 특정한 기준에 따라 순서대로 나열하는 것  
@@ -185,6 +190,9 @@
    
    * **성적이 낮은 순서대로 학생 출력하기** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_6.java)   
    
-   * **두 배열의 원소 교체** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_7.java)    
+   * **두 배열의 원소 교체** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_7.java)  
+        
+         * 배열 a의 가장 작은 수와 배열 b의 가장 큰 수를 교체하면 된다.  
+         * 단, a의 최소값이 b의 최대값보다 작을 때만 진행되며, 그렇지 않은 경우에는 교체를 중단한다.  
      
           
