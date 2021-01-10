@@ -196,7 +196,11 @@
    
    * **위에서 아래로** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_5.java)  
    
-   * **성적이 낮은 순서대로 학생 출력하기** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_6.java)   
+            * LinkedHashMap 사용하면 됨  
+   
+   * **성적이 낮은 순서대로 학생 출력하기** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_6.java)  
+   
+   
    
    * **두 배열의 원소 교체** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch6/ch6_7.java)  
         
