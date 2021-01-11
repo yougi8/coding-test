@@ -248,7 +248,9 @@
    
    * 반복문으로 구현한 이진탐색 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_3_binary2.java)  
    
-   * **부품 찾기** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_4_findParts.java)  
+   * **부품 찾기** 
+       * 이진 탐색 이용 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_4_findParts.java)  
+       * 계수 정렬 이용 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_4_findParts2.java)  
    
    * **떡볶이 떡 만들기** 
        * 이진탐색X ver. : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_5_make.java)  
