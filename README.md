@@ -242,17 +242,17 @@
         -> 오른쪽 자식 노드 > 부모 노드  
         
         
-   * 순차 탐색 : [Java 코드] ()  
+   * 순차 탐색 : [Java 코드] (https://github.com/yougi8/coding-test/blob/master/ch7/ch7_1_sequential.java)  
    
-   * 재귀로 구현한 이진탐색 : [Java 코드]()  
+   * 재귀로 구현한 이진탐색 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_2_binary.java)  
    
-   * 반복문으로 구현한 이진탐색 : [Java 코드]()  
+   * 반복문으로 구현한 이진탐색 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_3_binary2.java)  
    
-   * **부품 찾기** : [Java 코드]()  
+   * **부품 찾기** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_4_findParts.java)  
    
    * **떡볶이 떡 만들기** 
-       * 이진탐색ver. : [Java 코드]()  
-       * 이진탐색X ver. : [Java 코드]()  
+       * 이진탐색X ver. : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_5_make.java)  
+       * 이진탐색 ver. : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_5_make2.java)  
         
              * 전형적인 이진탐색 문제이자, 파라메트릭 서치 유형의 문제.  
              
