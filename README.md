@@ -242,7 +242,7 @@
         -> 오른쪽 자식 노드 > 부모 노드  
         
         
-   * 순차 탐색 : [Java 코드] (https://github.com/yougi8/coding-test/blob/master/ch7/ch7_1_sequential.java)  
+   * 순차 탐색 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_1_sequential.java)  
    
    * 재귀로 구현한 이진탐색 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch7/ch7_2_binary.java)  
    
