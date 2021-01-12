@@ -286,7 +286,17 @@
        -> 먼저 그리디. 구현, 완전 탐색 등의 아이디어로 문제를 해결할 수 있는 지 검토  
      
    * 비효율적인 피보나치 수열 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch8/ch8_1_Fibo.java) - 시간 복잡도 : O(2^N)   
+   
    * Top-down 피보나치 수열 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch8/ch8_2_Fibo2.java) - 시간 복잡도 : O(N)  
+   
    * Bottom-up 피보나치 수열 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch8/ch8_2_Fibo3.java) - 시간 복잡도 : O(N)   
+   
+   * 1로 만들기 : [Java 코드]()  
+   
+   * 개미 전사 : [Java 코드]()  
+   
+   * 바닥 공사 : [Java 코드]()  
+   
+   * 효율적인 화폐 구성 : [Java 코드]()  
    
    
