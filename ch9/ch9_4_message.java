@@ -1,18 +1,20 @@
-// chapter 9 ÃÖ´Ü °æ·Î - Àüº¸ ( floyd-warshall »ç¿ë )
+// chapter 9 ìµœë‹¨ ê²½ë¡œ - ì „ë³´ ( floyd-warshall ì‚¬ìš© )
 
 import java.util.*;
 
 public class ch9_4_message {
 
 	public static void main(String[] args) {
-		/* ½Ç½À ½Ã°£ :  ºĞ ( 1724 ~ )*/
+		/* ì‹¤ìŠµ ì‹œê°„ : 10 ë¶„ ( 1724 ~ 1735 )
+		   ì›ë˜ 60ë¶„ì§œë¦¬ ë¬¸ì  ë° ë‚´ê°€ ì•¼ë§¤ë¡œ í”Œë¡œì´ë“œ ì‚¬ìš©í•´ì„œ 10ë¶„ ê±¸ë¦°ë“¯.. ë‹¤ìµìŠ¤íŠ¸ë¼ëŠ” ë„˜ ì–´ë ¤ì›Œ..
+		*/
 		
 		Scanner keyboard = new Scanner(System.in);
 		int INF = 1001;
 		
-		int n = keyboard.nextInt(); // µµ½Ã °³¼ö
-		int m = keyboard.nextInt(); // Åë·Î °³¼ö
-		int c = keyboard.nextInt(); // ¸Ş½ÃÁö º¸³¾ µµ½Ã
+		int n = keyboard.nextInt(); // ë„ì‹œ ê°œìˆ˜
+		int m = keyboard.nextInt(); // í†µë¡œ ê°œìˆ˜
+		int c = keyboard.nextInt(); // ë©”ì‹œì§€ ë³´ë‚¼ ë„ì‹œ
 		int[][] arr = new int[n+1][n+1];
 		
 		for(int i=1;i<=n;i++) {
@@ -31,7 +33,7 @@ public class ch9_4_message {
 			arr[from][to] = value;
 		}
 		
-		/* ÄÚµå ½ÇÇà½Ã°£ °è»ê */
+		/* ì½”ë“œ ì‹¤í–‰ì‹œê°„ ê³„ì‚° */
 		long beforeTime = System.currentTimeMillis(); 
 		
 		for(int k=1;k<=n;k++) {
@@ -47,30 +49,30 @@ public class ch9_4_message {
 		int num = 0;
 		int time = 0;
 		
-		// floyd-warshall »ç¿ëÇØ¼­ ¹è¿­ °ª ¾÷µ¥ÀÌÆ®
+		// floyd-warshall ì‚¬ìš©í•´ì„œ ë°°ì—´ ê°’ ì—…ë°ì´íŠ¸
 		for(int i=1;i<=n;i++) {
 			for(int j=1;j<=n;j++) {
-				// Åë·Î°¡ ÀÖ´Ù¸é
+				// í†µë¡œê°€ ìˆë‹¤ë©´
 				if(arr[i][j]<INF && arr[i][j]!=0) {
-					num++; // ÀüÇÒ ¼ö ÀÖ´Â µµ½Ã ¼ö +1
-					if(arr[i][j] > time) // ±âÁ¸¿¡ °É¸®´ø ½Ã°£º¸´Ù ¿À·¡ °É¸®¸é ±× ½Ã°£À¸·Î update ( ¸ğµç µµ½Ã°¡ Àü´Ş¹ŞÀ¸·Á¸é Á¦ÀÏ ¿À·¡°É¸®´Â µµ½ÃÀÇ ½Ã°£ »ç¿ëÇÏ¸é µÊ )
+					num++; // ì „í•  ìˆ˜ ìˆëŠ” ë„ì‹œ ìˆ˜ +1
+					if(arr[i][j] > time) // ê¸°ì¡´ì— ê±¸ë¦¬ë˜ ì‹œê°„ë³´ë‹¤ ì˜¤ë˜ ê±¸ë¦¬ë©´ ê·¸ ì‹œê°„ìœ¼ë¡œ update ( ëª¨ë“  ë„ì‹œê°€ ì „ë‹¬ë°›ìœ¼ë ¤ë©´ ì œì¼ ì˜¤ë˜ê±¸ë¦¬ëŠ” ë„ì‹œì˜ ì‹œê°„ ì‚¬ìš©í•˜ë©´ ë¨ )
 						time = arr[i][j];
 				}
 			}
 		}
 		
 		System.out.println(num+" "+time);
-	   /* ÄÚµå ½ÇÇà½Ã°£ °è»ê */
+	   /* ì½”ë“œ ì‹¤í–‰ì‹œê°„ ê³„ì‚° */
        long afterTime = System.currentTimeMillis();
        long secDiffTime = (afterTime - beforeTime) / 1000;
-       System.out.println("\n½ÇÇà½Ã°£(second) : " + secDiffTime);
+       System.out.println("\nì‹¤í–‰ì‹œê°„(second) : " + secDiffTime);
 
 	}
 
 }
 
 
-/* ¸ğ¹ü ´ä¾È ÄÚµå - ´ÙÀÍ½ºÆ®¶ó »ç¿ë
+/* ëª¨ë²” ë‹µì•ˆ ì½”ë“œ - ë‹¤ìµìŠ¤íŠ¸ë¼ ì‚¬ìš©
  * 
  * 
  import java.util.*;
@@ -93,7 +95,7 @@ class Node implements Comparable<Node> {
         return this.distance;
     }
 
-    // °Å¸®(ºñ¿ë)°¡ ÂªÀº °ÍÀÌ ³ôÀº ¿ì¼±¼øÀ§¸¦ °¡Áöµµ·Ï ¼³Á¤
+    // ê±°ë¦¬(ë¹„ìš©)ê°€ ì§§ì€ ê²ƒì´ ë†’ì€ ìš°ì„ ìˆœìœ„ë¥¼ ê°€ì§€ë„ë¡ ì„¤ì •
     @Override
     public int compareTo(Node other) {
         if (this.distance < other.distance) {
@@ -104,30 +106,30 @@ class Node implements Comparable<Node> {
 }
 
 public class Main {
-    public static final int INF = (int) 1e9; // ¹«ÇÑÀ» ÀÇ¹ÌÇÏ´Â °ªÀ¸·Î 10¾ïÀ» ¼³Á¤
-    // ³ëµåÀÇ °³¼ö(N), °£¼±ÀÇ °³¼ö(M), ½ÃÀÛ ³ëµå ¹øÈ£(Start)
+    public static final int INF = (int) 1e9; // ë¬´í•œì„ ì˜ë¯¸í•˜ëŠ” ê°’ìœ¼ë¡œ 10ì–µì„ ì„¤ì •
+    // ë…¸ë“œì˜ ê°œìˆ˜(N), ê°„ì„ ì˜ ê°œìˆ˜(M), ì‹œì‘ ë…¸ë“œ ë²ˆí˜¸(Start)
     public static int n, m, start;
-    // °¢ ³ëµå¿¡ ¿¬°áµÇ¾î ÀÖ´Â ³ëµå¿¡ ´ëÇÑ Á¤º¸¸¦ ´ã´Â ¹è¿­
+    // ê° ë…¸ë“œì— ì—°ê²°ë˜ì–´ ìˆëŠ” ë…¸ë“œì— ëŒ€í•œ ì •ë³´ë¥¼ ë‹´ëŠ” ë°°ì—´
     public static ArrayList<ArrayList<Node>> graph = new ArrayList<ArrayList<Node>>();
-    // ÃÖ´Ü °Å¸® Å×ÀÌºí ¸¸µé±â
+    // ìµœë‹¨ ê±°ë¦¬ í…Œì´ë¸” ë§Œë“¤ê¸°
     public static int[] d = new int[30001];
 
     public static void dijkstra(int start) {
         PriorityQueue<Node> pq = new PriorityQueue<>();
-        // ½ÃÀÛ ³ëµå·Î °¡±â À§ÇÑ ÃÖ´Ü °æ·Î´Â 0À¸·Î ¼³Á¤ÇÏ¿©, Å¥¿¡ »ğÀÔ
+        // ì‹œì‘ ë…¸ë“œë¡œ ê°€ê¸° ìœ„í•œ ìµœë‹¨ ê²½ë¡œëŠ” 0ìœ¼ë¡œ ì„¤ì •í•˜ì—¬, íì— ì‚½ì…
         pq.offer(new Node(start, 0));
         d[start] = 0;
-        while(!pq.isEmpty()) { // Å¥°¡ ºñ¾îÀÖÁö ¾Ê´Ù¸é
-            // °¡Àå ÃÖ´Ü °Å¸®°¡ ÂªÀº ³ëµå¿¡ ´ëÇÑ Á¤º¸ ²¨³»±â
+        while(!pq.isEmpty()) { // íê°€ ë¹„ì–´ìˆì§€ ì•Šë‹¤ë©´
+            // ê°€ì¥ ìµœë‹¨ ê±°ë¦¬ê°€ ì§§ì€ ë…¸ë“œì— ëŒ€í•œ ì •ë³´ êº¼ë‚´ê¸°
             Node node = pq.poll();
-            int dist = node.getDistance(); // ÇöÀç ³ëµå±îÁöÀÇ ºñ¿ë 
-            int now = node.getIndex(); // ÇöÀç ³ëµå
-            // ÇöÀç ³ëµå°¡ ÀÌ¹Ì Ã³¸®µÈ ÀûÀÌ ÀÖ´Â ³ëµå¶ó¸é ¹«½Ã
+            int dist = node.getDistance(); // í˜„ì¬ ë…¸ë“œê¹Œì§€ì˜ ë¹„ìš© 
+            int now = node.getIndex(); // í˜„ì¬ ë…¸ë“œ
+            // í˜„ì¬ ë…¸ë“œê°€ ì´ë¯¸ ì²˜ë¦¬ëœ ì ì´ ìˆëŠ” ë…¸ë“œë¼ë©´ ë¬´ì‹œ
             if (d[now] < dist) continue;
-            // ÇöÀç ³ëµå¿Í ¿¬°áµÈ ´Ù¸¥ ÀÎÁ¢ÇÑ ³ëµåµéÀ» È®ÀÎ
+            // í˜„ì¬ ë…¸ë“œì™€ ì—°ê²°ëœ ë‹¤ë¥¸ ì¸ì ‘í•œ ë…¸ë“œë“¤ì„ í™•ì¸
             for (int i = 0; i < graph.get(now).size(); i++) {
                 int cost = d[now] + graph.get(now).get(i).getDistance();
-                // ÇöÀç ³ëµå¸¦ °ÅÃÄ¼­, ´Ù¸¥ ³ëµå·Î ÀÌµ¿ÇÏ´Â °Å¸®°¡ ´õ ÂªÀº °æ¿ì
+                // í˜„ì¬ ë…¸ë“œë¥¼ ê±°ì³ì„œ, ë‹¤ë¥¸ ë…¸ë“œë¡œ ì´ë™í•˜ëŠ” ê±°ë¦¬ê°€ ë” ì§§ì€ ê²½ìš°
                 if (cost < d[graph.get(now).get(i).getIndex()]) {
                     d[graph.get(now).get(i).getIndex()] = cost;
                     pq.offer(new Node(graph.get(now).get(i).getIndex(), cost));
@@ -143,39 +145,39 @@ public class Main {
         m = sc.nextInt();
         start = sc.nextInt();
 
-        // ±×·¡ÇÁ ÃÊ±âÈ­
+        // ê·¸ë˜í”„ ì´ˆê¸°í™”
         for (int i = 0; i <= n; i++) {
             graph.add(new ArrayList<Node>());
         }
         
-        // ¸ğµç °£¼± Á¤º¸¸¦ ÀÔ·Â¹Ş±â
+        // ëª¨ë“  ê°„ì„  ì •ë³´ë¥¼ ì…ë ¥ë°›ê¸°
         for (int i = 0; i < m; i++) {
             int x = sc.nextInt();
             int y = sc.nextInt();
             int z = sc.nextInt();
-            // X¹ø ³ëµå¿¡¼­ Y¹ø ³ëµå·Î °¡´Â ºñ¿ëÀÌ Z¶ó´Â ÀÇ¹Ì
+            // Xë²ˆ ë…¸ë“œì—ì„œ Yë²ˆ ë…¸ë“œë¡œ ê°€ëŠ” ë¹„ìš©ì´ Zë¼ëŠ” ì˜ë¯¸
             graph.get(x).add(new Node(y, z));
         }
 
-        // ÃÖ´Ü °Å¸® Å×ÀÌºíÀ» ¸ğµÎ ¹«ÇÑÀ¸·Î ÃÊ±âÈ­
+        // ìµœë‹¨ ê±°ë¦¬ í…Œì´ë¸”ì„ ëª¨ë‘ ë¬´í•œìœ¼ë¡œ ì´ˆê¸°í™”
         Arrays.fill(d, INF);
         
-        // ´ÙÀÍ½ºÆ®¶ó ¾Ë°í¸®ÁòÀ» ¼öÇà
+        // ë‹¤ìµìŠ¤íŠ¸ë¼ ì•Œê³ ë¦¬ì¦˜ì„ ìˆ˜í–‰
         dijkstra(start);
 
-        // µµ´ŞÇÒ ¼ö ÀÖ´Â ³ëµåÀÇ °³¼ö
+        // ë„ë‹¬í•  ìˆ˜ ìˆëŠ” ë…¸ë“œì˜ ê°œìˆ˜
         int count = 0;
-        // µµ´ŞÇÒ ¼ö ÀÖ´Â ³ëµå Áß¿¡¼­, °¡Àå ¸Ö¸® ÀÖ´Â ³ëµå¿ÍÀÇ ÃÖ´Ü °Å¸®
+        // ë„ë‹¬í•  ìˆ˜ ìˆëŠ” ë…¸ë“œ ì¤‘ì—ì„œ, ê°€ì¥ ë©€ë¦¬ ìˆëŠ” ë…¸ë“œì™€ì˜ ìµœë‹¨ ê±°ë¦¬
         int maxDistance = 0;
         for (int i = 1; i <= n; i++) {
-            // µµ´ŞÇÒ ¼ö ÀÖ´Â ³ëµåÀÎ °æ¿ì
+            // ë„ë‹¬í•  ìˆ˜ ìˆëŠ” ë…¸ë“œì¸ ê²½ìš°
             if (d[i] != INF) {
                 count += 1;
                 maxDistance = Math.max(maxDistance, d[i]);
             }
         }
 
-        // ½ÃÀÛ ³ëµå´Â Á¦¿ÜÇØ¾ß ÇÏ¹Ç·Î count - 1À» Ãâ·Â
+        // ì‹œì‘ ë…¸ë“œëŠ” ì œì™¸í•´ì•¼ í•˜ë¯€ë¡œ count - 1ì„ ì¶œë ¥
         System.out.println((count - 1) + " " + maxDistance);
     }
 }
