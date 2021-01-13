@@ -291,13 +291,13 @@
    
    * Bottom-up 피보나치 수열 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch8/ch8_2_Fibo3.java) - 시간 복잡도 : O(N)   
    
-   * 1로 만들기 : [Java 코드]()  
+   * **1로 만들기** : [Java 코드]()  
    
-   * 개미 전사 : [Java 코드]()  
+   * **개미 전사** : [Java 코드]()  
    
-   * 바닥 공사 : [Java 코드]()  
+   * **바닥 공사** : [Java 코드]()  
    
-   * 효율적인 화폐 구성 : [Java 코드]()  
+   * **효율적인 화폐 구성** : [Java 코드]()  
    
  ### chapter 9 최단 경로  
  
@@ -319,3 +319,19 @@
          -> 2차원 테이블에 최단 거리 정보 저장  
          -> 다이나믹 프로그래밍 유형에 속함  
          -> k노드를 거쳐서 가는 경우를 고려하여 더 작은 값으로 갱신  
+         
+  * 간단한 다익스트라 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch9/ch9_1_dijkstra.java)  
+  
+  * 개선된 다익스트라 (우선순위 큐) : [Java 코드](https://github.com/ndb796/python-for-coding-test/blob/master/9/2.java)  -> 나는 구현 못함 ㅠㅠ  
+  
+  * 플로이드 워셜 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch9/ch9_2_floydWarshall.java)  
+  
+  * **미래 도시** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch9/ch9_3_city.java)  
+  
+        * floyd-warshall 사용해서 도시들 간의 거리를 구한 후 2차원 배열에 저장  
+          -> 1부터 k까지, k부터 x까지의 최단거리를 구한 값이 결과값  
+  
+  * **전보** : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch9/ch9_4_message.java)  
+  
+        * 일단 나는 앞의 문제와 동일하게 floyd-warshall 방식을 사용했다.  
+        * 답지를 보니 우선순위 큐를 사용하는 다익스트라 알고리즘을 사용했더라..  
