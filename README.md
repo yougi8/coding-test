@@ -367,13 +367,13 @@
       * 개선된 서로소 집합 알고리즘 (경로 압축) : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_1_unionFind2.java)  
       * 서로소 집합 활용 사이클 판별 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_1_unionFind3.java)  
       
-  * 크루스칼 알고리즘 : [Java 코드]()  
+  * 크루스칼 알고리즘 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_2_kruskal.java)  
   
   * 위상 정렬 : [Java 코드]()  
   
   * **팀 결성** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_3_team.java)  
   
-  * **도시 분할 계획** : [Java 코드]()  
+  * **도시 분할 계획** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_4_city.java)  
   
   * **커리큘럼** : [Java 코드]()  
   
