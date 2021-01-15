@@ -131,7 +131,7 @@
         * bfs 함수 실행이 끝나면, graph[][]에 저장된 마지막 노드 값 return  
         
  
- ### chapter 6. 정렬  
+ #### chapter 6. 정렬  
   정렬 : 데이터를 특정한 기준에 따라 순서대로 나열하는 것  
   
    #### 선택 정렬  
@@ -208,7 +208,7 @@
          * 단, a의 최소값이 b의 최대값보다 작을 때만 진행되며, 그렇지 않은 경우에는 교체를 중단한다.  
      
           
-  ### chapter 7. 이진탐색  
+  #### chapter 7. 이진탐색  
    
       # 순차 탐색 : 리스트 안에 있는 특정한 데이터를 찾기 위해 '앞에서부터' 데이터를 하나씩 확인하는 방법  
       
@@ -263,7 +263,7 @@
           
              * 이진탐색을 통해서 숫자 범위를 절반씩 줄여나가는 것이 더욱 효과적일 것이다. (예시 답안 코드)  
              
- ### chapter 8. 다이나믹 프로그래밍  
+ #### chapter 8. 다이나믹 프로그래밍  
  
      # 메모리를 적절히 사용하여 수행 시간을 효율성을 비약적으로 향상시키는 방법  
      # 이미 계산된 결과(작은 문제)는 별도의 메모리에 저장 -> 다시 계산 안하게  
@@ -299,7 +299,7 @@
    
    * **효율적인 화폐 구성** : [Java 코드]()  
    
- ### chapter 9 최단 경로  
+ #### chapter 9 최단 경로  
  
       # 최단 경로 알고리즘 : 가장 짧은 경로를 찾는 알고리즘  
       # 각 지점은 노드로, 연결된 도로는 간선으로 표현  
@@ -336,7 +336,7 @@
         * 일단 나는 앞의 문제와 동일하게 floyd-warshall 방식을 사용했다.  
         * 답지를 보니 우선순위 큐를 사용하는 다익스트라 알고리즘을 사용했더라..  
         
- ### chapter 10. 기타 그래프 이론  
+ #### chapter 10. 기타 그래프 이론  
  
         # 앞에서 배운 그래프 구현 방법 복습  
           1. 인접 행렬 
@@ -361,5 +361,31 @@
           -> 간단하게 구현했을 경우, 자신의 부모 테이블에 있는 부모로 루트 노드를 찾아야하기 때문에 좀 비효율적이다.
           -> 무방향 그래프 내에서 사이클을 판별할 때 사용할 수 있음  
              : 매 간선에 대하여 루트노드가 다르다면 union해주고, 루트노드가 같다면 사이클 발생  
+             
+  * 서로소 집합  
+      * 간단한 서로소 집합 알고리즘 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_1_unionFind.java)  
+      * 개선된 서로소 집합 알고리즘 (경로 압축) : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_1_unionFind2.java)  
+      * 서로소 집합 활용 사이클 판별 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_1_unionFind3.java)  
+      
+  * 크루스칼 알고리즘 : [Java 코드]()  
+  
+  * 위상 정렬 : [Java 코드]()  
+  
+  * **팀 결성** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_3_team.java)  
+  
+  * **도시 분할 계획** : [Java 코드]()  
+  
+  * **커리큘럼** : [Java 코드]()  
+  
+  ***  
+  
+  ### Part 3 - 실전 문제  
+  #### chapter 11. 그리디 문제  
+  
+  * Q 01. 모험가 길드 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch11-%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%8B%A4%EC%A0%84/q1_adventurer.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/1.java)  
+  * Q 02. 곱하기 혹은 더하기 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch11-%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%8B%A4%EC%A0%84/q2_calculate.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/2.java)  
+  * Q 03. 문자열 뒤집기 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch11-%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%8B%A4%EC%A0%84/q3_flip.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/3.java)   
+  
+      
            
           
