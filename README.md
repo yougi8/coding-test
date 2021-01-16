@@ -381,7 +381,7 @@
       
   * 크루스칼 알고리즘 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_2_kruskal.java)  
   
-  * 위상 정렬 : [Java 코드]()  
+  * 위상 정렬 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_5_topology.java)  
   
   * **팀 결성** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_3_team.java)  
   
