@@ -264,6 +264,7 @@
              * 이진탐색을 통해서 숫자 범위를 절반씩 줄여나가는 것이 더욱 효과적일 것이다. (예시 답안 코드)  
              
  #### chapter 8. 다이나믹 프로그래밍  
+ -> 아 나는 다이나믹 프로그래밍이 정말 너무너무너무 어렵다. 제일 어렵다.
  
      # 메모리를 적절히 사용하여 수행 시간을 효율성을 비약적으로 향상시키는 방법  
      # 이미 계산된 결과(작은 문제)는 별도의 메모리에 저장 -> 다시 계산 안하게  
@@ -387,7 +388,7 @@
   
   * **도시 분할 계획** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_4_city.java)  
   
-  * **커리큘럼** : [Java 코드]()  
+  * **커리큘럼** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch10/ch10_6_curriculum.java)  
   
   ***  
   
