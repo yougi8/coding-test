@@ -292,13 +292,13 @@
    
    * Bottom-up 피보나치 수열 : [Java 코드](https://github.com/yougi8/coding-test/blob/master/ch8/ch8_2_Fibo3.java) - 시간 복잡도 : O(N)   
    
-   * **1로 만들기** : [Java 코드]()  
+   * **1로 만들기** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch8/ch8_3_makeOne.java)  
    
-   * **개미 전사** : [Java 코드]()  
+   * **개미 전사** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch8/ch8_4_ant.java)  
    
    * **바닥 공사** : [Java 코드]()  
    
-   * **효율적인 화폐 구성** : [Java 코드]()  
+   * **효율적인 화폐 구성** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch8/ch8_6_coin.java)  
    
  #### chapter 9 최단 경로  
  
