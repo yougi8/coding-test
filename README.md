@@ -296,7 +296,7 @@
    
    * **개미 전사** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch8/ch8_4_ant.java)  
    
-   * **바닥 공사** : [Java 코드]()  
+   * **바닥 공사** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch8/ch8_5_floor.java)  
    
    * **효율적인 화폐 구성** : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch8/ch8_6_coin.java)  
    
