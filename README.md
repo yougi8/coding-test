@@ -393,11 +393,29 @@
   ***  
   
   ### Part 3 - 실전 문제  
-  #### chapter 11. 그리디 문제  
   
+  #### chapter 11. 그리디 문제  
   * Q 01. 모험가 길드 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch11-%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%8B%A4%EC%A0%84/q1_adventurer.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/1.java)  
   * Q 02. 곱하기 혹은 더하기 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch11-%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%8B%A4%EC%A0%84/q2_calculate.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/2.java)  
   * Q 03. 문자열 뒤집기 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch11-%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%8B%A4%EC%A0%84/q3_flip.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/3.java)   
+  * Q 04. 만들 수 없는 금액 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch11-%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%8B%A4%EC%A0%84/q4_money.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/4.java)  
+  * Q 05. 볼링공 고르기 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch11-%EA%B7%B8%EB%A6%AC%EB%94%94%20%EC%8B%A4%EC%A0%84/q5_bowling.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/5.java)  
+  * Q 06. [무지의 먹방 라이브](https://programmers.co.kr/learn/courses/30/lessons/42891) (카카오) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/11/6.java)  
+  
+  #### chapter 12. 구현 문제  
+  * Q 07. 럭키 스트레이트 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch12%20-%20%EA%B5%AC%ED%98%84%20%EC%8B%A4%EC%A0%84/q7_lucky.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/12/1.java)  
+  * Q 08. 문자열 재정렬 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch12%20-%20%EA%B5%AC%ED%98%84%20%EC%8B%A4%EC%A0%84/q8_string.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/12/2.java)  
+  * Q 09. [문자열 압축](https://programmers.co.kr/learn/courses/30/lessons/60057) (카카오) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/12/3.java)  
+  * Q 10. [자물쇠와 열쇠](https://programmers.co.kr/learn/courses/30/lessons/60059) (카카오) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/12/4.java)  
+  * Q 11. [뱀](https://www.acmicpc.net/problem/3190) (삼성) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/12/5.java)  
+  * Q 12. [기둥과 보 설치](https://programmers.co.kr/learn/courses/30/lessons/60061) (카카오) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/12/4.java)  
+  * Q 13. [치킨 배달](https://www.acmicpc.net/problem/15686) (삼성) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/12/7.java)  
+  * Q 14. [외벽 점검](https://programmers.co.kr/learn/courses/30/lessons/60062) (카카오) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/12/8.java)  
+  
+  #### chapter 13. DFS/BFS 문제  
+  * Q 15. 특정 거리의 도시 찾기 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch13%20-%20dfs_bfs%20%EC%8B%A4%EC%A0%84/q15_city.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/13/1.java)  
+  * Q 16. [연구소](https://www.acmicpc.net/problem/14502) (삼성) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/13/2.java)  
+  * Q 17. 경쟁적 전염 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch13%20-%20dfs_bfs%20%EC%8B%A4%EC%A0%84/q17_infection.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/13/3.java)  
   
       
            
