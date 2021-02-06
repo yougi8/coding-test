@@ -417,6 +417,14 @@
   * Q 16. [연구소](https://www.acmicpc.net/problem/14502) (삼성) : [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/13/2.java)  
   * Q 17. 경쟁적 전염 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch13%20-%20dfs_bfs%20%EC%8B%A4%EC%A0%84/q17_infection.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/13/3.java)  
   
+  
+  #### chapter 14. 정렬 문제  
+  * Q 23. 국영수 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch14%20-%20%EC%A0%95%EB%A0%AC%20%EC%8B%A4%EC%A0%84/q23_korEngMat.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/14/1.java)  
+  * Q 24. 안테나 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch14%20-%20%EC%A0%95%EB%A0%AC%20%EC%8B%A4%EC%A0%84/q24_antenna.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/14/2.java)  
+  * Q 25. [실패율](https://programmers.co.kr/learn/courses/30/lessons/42889) (카카오): [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/14/3.java)  
+  * Q 26. 카드 정렬하기 : [Java 코드](https://github.com/yougi8/coding-test-java/blob/master/ch14%20-%20%EC%A0%95%EB%A0%AC%20%EC%8B%A4%EC%A0%84/q26_card.java) / [모범 답안](https://github.com/ndb796/python-for-coding-test/blob/master/14/4.java)  
+  
+  
       
            
           
